@@ -1,0 +1,20 @@
+{
+  "name": "vite-postcss-issue-repo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "build:postcss": "npx postcss ./src/style.css -o dist/site.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-import": "^15.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
